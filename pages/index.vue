@@ -455,7 +455,7 @@
               <p>24047 Treviglio - BG</p>
               <p>
                 <strong>Telefono: </strong
-                ><a href="tel:+390363302050">+39 0363.30.20.50</a>
+                ><a href="tel:+390363302050">+390363302050</a>
               </p>
               <p>
                 <strong>Mail: </strong
