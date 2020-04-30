@@ -102,7 +102,8 @@ export default {
       }
     ],
     '@nuxtjs/sitemap',
-    '@nuxtjs/robots'
+    '@nuxtjs/robots',
+    'nuxt-lazy-load'
   ],
   /*
    ** Build configuration

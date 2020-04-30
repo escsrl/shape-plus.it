@@ -7,7 +7,11 @@
           <div class="col-lg-12 col-md-12 col-sm-12">
             <div id="logo_esc">
               <a href="http://esconsulting.it/"
-                ><img id="_1_img_logo" src="/img/logo_esc.png" class="img-fluid"
+                ><img
+                  id="_1_img_logo"
+                  v-lazy-load
+                  data-src="/img/logo_esc.png"
+                  class="img-fluid"
               /></a>
             </div>
           </div>
@@ -49,7 +53,8 @@
             <div id="_1_img">
               <img
                 id="_1_img_computer"
-                src="/img/splus_computer.png"
+                v-lazy-load
+                data-src="/img/splus_computer.png"
                 class="img-fluid"
               />
             </div>
@@ -65,7 +70,8 @@
             <div id="_2_img">
               <img
                 id="_2_img_logo"
-                src="/img/logo_shapeplus.png"
+                v-lazy-load
+                data-src="/img/logo_shapeplus.png"
                 class="img-fluid"
               />
             </div>
@@ -74,9 +80,10 @@
             <div id="_2_video">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe
+                  v-lazy-load
                   width="560"
                   height="315"
-                  src="https://www.youtube.com/embed/NZfaVSMyXFc"
+                  data-src="https://www.youtube.com/embed/NZfaVSMyXFc"
                   frameborder="0"
                   allow="autoplay; encrypted-media"
                   allowfullscreen
@@ -169,7 +176,8 @@
             <div id="_4_img">
               <img
                 id="_4_img_smart_ui"
-                src="/img/shapeplus.png"
+                v-lazy-load
+                data-src="/img/shapeplus.png"
                 class="img-fluid"
               />
             </div>
@@ -215,7 +223,8 @@
             <div id="_5A_img">
               <img
                 id="_5A_img_rotelle"
-                src="/img/rotelle.png"
+                v-lazy-load
+                data-src="/img/rotelle.png"
                 class="img-fluid"
               />
             </div>
@@ -231,7 +240,8 @@
             <div id="_5_img">
               <img
                 id="_5BC_img"
-                src="/img/personaggio_master.png"
+                v-lazy-load
+                data-src="/img/personaggio_master.png"
                 class="img-fluid"
               />
             </div>
@@ -258,7 +268,8 @@
               <div id="_5_img">
                 <img
                   id="_5BC_img"
-                  src="/img/personaggio_acquisti.png"
+                  v-lazy-load
+                  data-src="/img/personaggio_acquisti.png"
                   class="img-fluid"
                 />
               </div>
@@ -274,7 +285,8 @@
               <div id="_5_img">
                 <img
                   id="_5BC_img"
-                  src="/img/personaggio_backoffice.png"
+                  v-lazy-load
+                  data-src="/img/personaggio_backoffice.png"
                   class="img-fluid"
                 />
               </div>
@@ -290,7 +302,8 @@
               <div id="_5_img">
                 <img
                   id="_5BC_img"
-                  src="/img/personaggio_ufftecnico.png"
+                  v-lazy-load
+                  data-src="/img/personaggio_ufftecnico.png"
                   class="img-fluid"
                 />
               </div>
@@ -312,7 +325,7 @@
       <section id="cd-timeline" class="cd-container">
         <div class="cd-timeline-block">
           <div class="cd-timeline-img cd-picture">
-            <img src="/img/timeline/step1.png" alt="step1" />
+            <img v-lazy-load data-src="/img/timeline/step1.png" alt="step1" />
           </div>
           <!-- cd-timeline-img -->
 
@@ -330,7 +343,7 @@
 
         <div class="cd-timeline-block">
           <div class="cd-timeline-img cd-picture">
-            <img src="/img/timeline/step2.png" alt="step2" />
+            <img v-lazy-load data-src="/img/timeline/step2.png" alt="step2" />
           </div>
           <!-- cd-timeline-img -->
 
@@ -349,7 +362,7 @@
 
         <div class="cd-timeline-block">
           <div class="cd-timeline-img cd-picture">
-            <img src="/img/timeline/step3.png" alt="step3" />
+            <img v-lazy-load data-src="/img/timeline/step3.png" alt="step3" />
           </div>
           <!-- cd-timeline-img -->
 
@@ -368,7 +381,7 @@
 
         <div class="cd-timeline-block">
           <div class="cd-timeline-img cd-picture">
-            <img src="/img/timeline/step4.png" alt="step4" />
+            <img v-lazy-load data-src="/img/timeline/step4.png" alt="step4" />
           </div>
           <!-- cd-timeline-img -->
 
@@ -386,7 +399,7 @@
 
         <div class="cd-timeline-block">
           <div class="cd-timeline-img cd-picture">
-            <img src="/img/timeline/step5.png" alt="step5" />
+            <img v-lazy-load data-src="/img/timeline/step5.png" alt="step5" />
           </div>
           <!-- cd-timeline-img -->
 
@@ -404,7 +417,7 @@
 
         <div class="cd-timeline-block">
           <div class="cd-timeline-img cd-picture">
-            <img src="/img/timeline/step6.png" alt="step6" />
+            <img v-lazy-load data-src="/img/timeline/step6.png" alt="step6" />
           </div>
           <!-- cd-timeline-img -->
 
@@ -422,7 +435,7 @@
 
         <div class="cd-timeline-block">
           <div class="cd-timeline-img cd-picture">
-            <img src="/img/timeline/stepF.png" alt="stepF" />
+            <img v-lazy-load data-src="/img/timeline/stepF.png" alt="stepF" />
           </div>
           <!-- cd-timeline-img -->
 
@@ -472,7 +485,8 @@
           <div class="col-md-6 col-12 text-left p-sm-0 p-3">
             <form id="form_email" name="form_email" method="post">
               <iframe
-                src="https://share.hsforms.com/1AjD_3swsRxibA0sIj5OGMA48hpn"
+                v-lazy-load
+                data-src="https://share.hsforms.com/1AjD_3swsRxibA0sIj5OGMA48hpn"
                 width="100%"
                 height="788px"
               ></iframe>
