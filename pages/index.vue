@@ -27,13 +27,13 @@
               </p>
             </div>
             <div id="_1_buttons">
-              <a
-                id="_1_btn"
-                href="pdf/Esc_Shape_Plus_Presentation.pdf"
-                target="_blank"
-                class="btn btn-default"
-                >PRESENTAZIONE</a
-              >
+              <!--              <a-->
+              <!--                id="_1_btn"-->
+              <!--                href="pdf/Esc_Shape_Plus_Presentation.pdf"-->
+              <!--                target="_blank"-->
+              <!--                class="btn btn-default"-->
+              <!--                >PRESENTAZIONE</a-->
+              <!--              >-->
               <a id="_1_btn" href="#_2_video" class="btn btn-default"
                 >GUARDA IL VIDEO</a
               >
